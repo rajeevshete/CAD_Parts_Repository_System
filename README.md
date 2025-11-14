@@ -5,7 +5,7 @@ It allows users to add, view, search, sort, and delete different types of CAD pa
 All parts share common properties through a base class, and specific part types are created using inheritance.
 
 The program uses smart pointers to manage memory safely and avoid leaks. 
-STL vectors store the parts, and algorithms are used for searching and sorting. 
+STL vectors store the parts, and algorithms are used for sorting. 
 Operator overloading is implemented where needed, and templates are used to make certain components generic. 
 Basic exception handling is included, for example when users enter invalid values such as negative dimensions.
 
